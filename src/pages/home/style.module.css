@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+2:400,800&display=swap" rel="stylesheet');
+
+.homeMage {
+  height: 500px;
+}
+
+.texts {
+  margin-top: 40px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50vw;
+  height: 45vh;
+}
+
+.texts {
+  transform: translatey(0px);
+  animation: float 5s ease-in-out infinite;
+  mix-blend-mode: multiply;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 20px;
+  background-color: white;
+  padding: 50px;
+  border-radius: 11px;
+  position: relative;
+  box-shadow: 5px 5px 7px 7px #4836C9;
+  font-family: "Baloo 2", cursive;
+}
+
+.homeInfo {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.homeInfo img {
+  height: 500px;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes float2 {
+  0% {
+    line-height: 30px;
+    transform: translatey(0px);
+  }
+  55% {
+    transform: translatey(-20px);
+  }
+  60% {
+    line-height: 10px;
+  }
+  100% {
+    line-height: 30px;
+    transform: translatey(0px);
+  }
+}

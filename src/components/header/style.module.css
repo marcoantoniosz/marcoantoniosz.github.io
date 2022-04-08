@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  background: linear-gradient(90deg, rgba(222,220,0,1) 0%, rgba(223,162,19,1) 27%, rgba(225,126,24,1) 48%, rgba(230,51,42,1) 69%);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: 'Anton', sans-serif;
+  color: #280330;
+}
+
+.headLogo {
+  height: 60px;
+}

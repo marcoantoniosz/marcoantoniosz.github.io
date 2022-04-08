@@ -1,0 +1,51 @@
+.contactMage {
+  height: 500px;
+}
+
+.line {
+  width: 200px;
+  border: 1px solid #000;
+}
+
+.contactForm {
+  margin-top: 10px;
+  height: 450px;
+  width: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  font-family: 'Baloo 2', cursive;
+}
+
+.contactForm input {
+  height: 30px;
+  width: 250px;
+  font-family: 'Baloo 2', cursive;
+  font-size: 18px;
+}
+
+.contactForm textarea {
+  resize: none;
+  width: 250px;
+  height: 100px;
+  font-family: 'Baloo 2', cursive;
+  font-size: 18px;
+}
+
+.contactForm button {
+  width: 250px;
+  height: 30px;
+  background-color: rgba(222,220,0,1);
+}
+
+.contactForm {
+  background: rgba( 255, 255, 255, 0.35 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 13.5px );
+  -webkit-backdrop-filter: blur( 13.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}

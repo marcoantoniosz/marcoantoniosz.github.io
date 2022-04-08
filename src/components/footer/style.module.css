@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.iconsContainer {
+  width: 90vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+  font-family: 'Anton', sans-serif;
+  background-color: rgba(118,169,245,1);
+  box-shadow: rgb(66, 140, 252) 2px 2px 2px 2px;
+}
+
+.footerIcon {
+  height: 40px;
+}
+

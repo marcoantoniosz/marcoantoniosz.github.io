@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+.line {
+  width: 200px;
+  border: 1px solid #000;
+}
+
+.aboutMage {
+  height: 500px;
+}
+
+.aboutMe {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Baloo 2', cursive;
+}
+
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  font-family: 'Baloo 2', cursive;
+}
