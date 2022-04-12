@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d99e5049.css",
-    "main.js": "/static/js/main.aec7318d.js",
+    "main.js": "/static/js/main.fb109c41.js",
     "static/media/CONTATO.png": "/static/media/CONTATO.96092a8268eede94f867.png",
     "static/media/HOME.png": "/static/media/HOME.e88b7a2dcf165b85f7ab.png",
     "static/media/PROJETOS.png": "/static/media/PROJETOS.c4137a234f747501e6a8.png",
@@ -11,10 +11,10 @@
     "static/media/linkedin-brands.svg": "/static/media/linkedin-brands.f2f7d420f8ec14109e65abad03b5f32c.svg",
     "index.html": "/index.html",
     "main.d99e5049.css.map": "/static/css/main.d99e5049.css.map",
-    "main.aec7318d.js.map": "/static/js/main.aec7318d.js.map"
+    "main.fb109c41.js.map": "/static/js/main.fb109c41.js.map"
   },
   "entrypoints": [
     "static/css/main.d99e5049.css",
-    "static/js/main.aec7318d.js"
+    "static/js/main.fb109c41.js"
   ]
 }
