@@ -8,11 +8,15 @@ export default function Footer() {
   return (
     <footer>
       <div className={ style.iconsContainer }>
-        <img className={ style.footerIcon } src={ GitHubIcon } alt="github-icon" />
+        <a target="_blank" href="https://github.com/marcoantoniosz" rel="noreferrer">
+          <img className={ style.footerIcon } src={ GitHubIcon } alt="github-icon" />
+        </a>
         <p>
           me encontre
         </p>
-        <img className={ style.footerIcon } src={ LinkedInIcon } alt="linkedin-icon" />
+        <a target="_blank" href="https://www.linkedin.com/in/marcoantoniosz/" rel="noreferrer">
+         <img className={ style.footerIcon } src={ LinkedInIcon } alt="linkedin-icon" />
+        </a>
       </div>
     </footer>
   )
