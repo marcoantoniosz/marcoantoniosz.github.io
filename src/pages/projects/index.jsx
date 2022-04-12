@@ -16,13 +16,13 @@ export default function Projects() {
         <div className={ style.line } />
         <ul>
           <li>
-            <a href="https://marcoantoniosz.github.io/itony/"> iTony</a>
+            <a target="_blank" href="https://marcoantoniosz.github.io/itony/" rel="noreferrer"> iTony</a>
           </li>
           <li>
-            <a href="https://marcoantoniosz.github.io/tryvia/">Tryvia</a>
+            <a target="_blank" href="https://marcoantoniosz.github.io/tryvia/" rel="noreferrer">Tryvia</a>
           </li>
           <li>
-            <a href="https://marcoantoniosz.github.io/pocket-cauldron/">Pocket Cauldron</a>
+            <a target="_blank" href="https://marcoantoniosz.github.io/pocket-cauldron/" rel="noreferrer">Pocket Cauldron</a>
           </li>
         </ul>
       </section>
