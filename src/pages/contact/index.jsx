@@ -10,9 +10,7 @@ export default function Contact() {
     <Header />
     <main>
       <img className={ style.contactMage } src={ contactMage } alt="contact-mage" />
-      <form action="https://api.staticforms.xyz/submit" method="post" className={ style.contactForm }>
-        <input type="hidden" name="accessKey" value='1aadecc7-f186-4e91-ae30-dd5e4de5cd39' />
-        <input type="hidden" name="redirectTo" value="http://localhost:3000/" />
+      <form className={ style.contactForm }>
         <h1>Me envie uma mensagem</h1>
         <div className={ style.line } />
           <label htmlFor="name-input">
@@ -26,6 +24,7 @@ export default function Contact() {
           </label>
         <button type="submit">Enviar</button>
       </form>
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
     </main>
     <Footer />
   </>
