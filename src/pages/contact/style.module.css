@@ -2,11 +2,12 @@
   .contactMain {
     display: flex;
     flex-direction: column-reverse;
-    height: 100vh;
+    height: 120vh;
   }
   .contactMage {
     height: 50vh !important;
   }
+
 }
 
 .contactMage {

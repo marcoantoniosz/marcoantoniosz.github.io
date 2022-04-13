@@ -23,10 +23,10 @@
     margin-right: 30px;
   }
   .texts h1 {
-    font-size: 25px !important;
+    font-size: 3vh !important;
   }
   .texts p {
-    font-size: 15px !important;
+    font-size: 2vh !important;
   }
   .texts:after {
   transform: translatey(0px);
