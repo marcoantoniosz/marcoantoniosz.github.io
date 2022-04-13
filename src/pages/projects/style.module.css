@@ -19,6 +19,9 @@
   .line {
     width: 150px !important;
   }
+  .projectsContainer li {
+    width: 300px !important;
+  }
 }
 
 .projectsLogo {
