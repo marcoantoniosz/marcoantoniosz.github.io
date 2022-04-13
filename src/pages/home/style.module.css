@@ -15,12 +15,12 @@
 
   .texts {
     height: 25vh !important;
-    width: 300px !important;
+    width: 80vw !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: space-evenly !important;
     align-items: center !important;
-    margin-right: 30px;
+    margin-right: 15% !important;
   }
   .texts h1 {
     font-size: 3vh !important;

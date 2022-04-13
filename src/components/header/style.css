@@ -6,7 +6,10 @@
     justify-content: center;
     display: flex !important;
     flex-wrap: wrap !important;
-    font-size: 15px !important;
+    font-size: 2vh !important;
+  }
+  .headLogo {
+    height: 8vh !important;
   }
 }
 
