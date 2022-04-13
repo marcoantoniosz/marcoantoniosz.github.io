@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,22 +6,24 @@
 }
 
 body {
-  height: 100vh;
   background: linear-gradient(180deg, rgba(118,169,245,1) 0%, rgba(131,175,242,1) 18%, rgba(141,180,239,1) 51%, rgba(204,210,224,1) 88%);
 }
 
 header {
   height: 10vh;
+  width: 100vw;
 }
 
 main {
-  height: 500px;
+  height: 82vh;
+  width: 100vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 footer {
-  margin-top: 15px;
   height: 7vh;
+  margin-bottom: 1vh;
+  width: 100vw;
 }

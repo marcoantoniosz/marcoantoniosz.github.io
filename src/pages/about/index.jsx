@@ -8,7 +8,7 @@ export default function About() {
   return (
     <>
       <Header />
-      <main>
+      <main className={ style.aboutMain }>
         <section className={ style.aboutMe }>
           <h1>Sobre mim</h1>
           <br />

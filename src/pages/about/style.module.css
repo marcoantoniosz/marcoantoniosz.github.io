@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 
+@media screen and (max-width: 858px) {
+  .aboutMage {
+    height: 50vh !important;
+  }
+  .aboutMain {
+    display: flex !important;
+    flex-direction: column;
+    height: 200vh;
+  }
+}
+
+
 .line {
   width: 200px;
   border: 1px solid #000;

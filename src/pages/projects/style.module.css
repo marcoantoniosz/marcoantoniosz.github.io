@@ -1,3 +1,26 @@
+@media screen and (max-width: 858px) {
+
+  .projectsLogo {
+    margin-top: 100px;
+    height: 50vh !important;
+  }
+
+  .projectsMain {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    justify-content: space-around;
+    height: 120vh;
+  }
+  .projectsContainer {
+    width: 350px !important;
+    height: 350px !important;
+    margin-bottom: 100px !important;
+  }
+  .line {
+    width: 150px !important;
+  }
+}
+
 .projectsLogo {
   height: 500px;
 }

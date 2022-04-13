@@ -1,3 +1,14 @@
+@media screen and (max-width: 858px) {
+  .contactMain {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100vh;
+  }
+  .contactMage {
+    height: 50vh !important;
+  }
+}
+
 .contactMage {
   height: 500px;
 }

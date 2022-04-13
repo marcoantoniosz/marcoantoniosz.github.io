@@ -8,7 +8,7 @@ export default function Projects() {
   return (
     <>
     <Header />
-    <main>
+    <main className={ style.projectsMain }>
       <section className={ style.projectsContainer }>
         <h1>
           Meus projetos

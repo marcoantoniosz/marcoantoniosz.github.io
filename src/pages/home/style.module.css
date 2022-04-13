@@ -1,5 +1,58 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+2:400,800&display=swap" rel="stylesheet');
 
+@media screen and (max-width: 858px) {
+
+  .homeContainer {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+  }
+
+  .homeMage {
+    height: 50vh !important;
+  }
+
+  .texts {
+    height: 25vh !important;
+    width: 300px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-evenly !important;
+    align-items: center !important;
+    margin-right: 30px;
+  }
+  .texts h1 {
+    font-size: 25px !important;
+  }
+  .texts p {
+    font-size: 15px !important;
+  }
+  .texts:after {
+  transform: translatey(0px);
+  animation: float2 5s ease-in-out infinite;
+  content: ".";
+  font-weight: bold;
+  -webkit-text-stroke: 0.5px;
+  -webkit-text-fill-color: #dadada;
+  border: 1px solid;
+  text-shadow: 22px 22px #4836C9;
+  text-align: left;
+  font-size: 55px;
+  width: 55px;
+  height: 11px;
+  line-height: 30px;
+  border-radius: 11px;
+  background-color: #DADADA;
+  position: absolute;
+  display: block;
+  bottom: -30px;
+  left: 0;
+  box-shadow: 22px 22px #4836C9;
+  z-index: -2;
+  }
+}
+
 .homeMage {
   height: 500px;
 }
@@ -27,7 +80,7 @@
   padding: 50px;
   border-radius: 11px;
   position: relative;
-  box-shadow: 5px 5px 7px 7px #4836C9;
+  box-shadow: 5px 5px 2px 2px #4836C9;
   font-family: "Baloo 2", cursive;
 }
 

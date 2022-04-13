@@ -21,7 +21,7 @@ export default function Contact() {
   return (
     <>
     <Header />
-    <main>
+    <main className={ style.contactMain }>
       <img className={ style.contactMage } src={ contactMage } alt="contact-mage" />
       <form onSubmit={ sendEmail } ref={ form } className={ style.contactForm }>
         <h1>Me envie uma mensagem</h1>
