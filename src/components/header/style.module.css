@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 @media screen and (max-width: 858px) {
-  nav ul {
+  .aUl {
     width: 200px !important;
     justify-content: center;
     display: flex !important;
@@ -9,11 +9,22 @@
     font-size: 2vh !important;
   }
   .headLogo {
-    height: 8vh !important;
+    height: 7vh !important;
   }
+
+  .header button {
+    display: flex !important;
+    background-color: transparent !important;
+    border: transparent !important;
+  }
+
+  .aUl {
+    display: none !important;
+  }
+
 }
 
-header {
+.header {
   align-items: center;
   display: flex;
   justify-content: space-around;
@@ -21,7 +32,7 @@ header {
   background: linear-gradient(90deg, rgba(222,220,0,1) 0%, rgba(223,162,19,1) 27%, rgba(225,126,24,1) 48%, rgba(230,51,42,1) 69%);
 }
 
-nav ul {
+.aUl {
   display: flex;
   justify-content: space-between;
   width: 50vw;
@@ -29,7 +40,7 @@ nav ul {
   font-size: 20px;
 }
 
-nav a {
+.aUl a {
   text-decoration: none;
   font-family: 'Anton', sans-serif;
   color: #280330;
@@ -38,6 +49,11 @@ nav a {
 .headLogo {
   height: 60px;
 }
+ .header button {
+   display: none;
+   background-color: transparent;
+   border: transparent;
+ }
 
 
 

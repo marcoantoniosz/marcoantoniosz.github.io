@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+2:400,800&display=swap" rel="stylesheet');
 
 @media screen and (max-width: 858px) {
-
   .homeContainer {
     display: flex !important;
     flex-direction: column-reverse !important;
@@ -54,7 +53,7 @@
 }
 
 .homeMage {
-  height: 500px;
+  height: 50vh;
 }
 
 .texts {
@@ -88,10 +87,6 @@
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
-}
-
-.homeInfo img {
-  height: 500px;
 }
 
 @keyframes float {

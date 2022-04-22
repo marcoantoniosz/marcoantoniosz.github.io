@@ -1,0 +1,25 @@
+.navMobile {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 90vh;
+  list-style: none;
+  font-size: 25px;
+  background: linear-gradient(90deg, rgba(222,220,0,1) 0%, rgba(223,162,19,1) 27%, rgba(225,126,24,1) 48%, rgba(230,51,42,1) 69%);
+}
+
+.navMobile a {
+  text-decoration: none;
+  font-family: 'Anton', sans-serif;
+  color: #280330;
+}
+
+.aUl {
+  list-style: none;
+}
+
+.navMobile ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

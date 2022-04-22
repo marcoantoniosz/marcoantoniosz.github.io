@@ -1,17 +1,20 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import './style.css';
+import style from './style.module.css';
 import logo from '../../images/LOGO.png';
+import { Twirl as Hamburger } from 'hamburger-react';
+import MyContext from '../../context/MyContext';
 
 
 export default function Header() {
+  const { menuOn, setMenu } = useContext(MyContext);
   return (
-    <header>
+    <header className={style.header }>
       <div className="logoContainer">
-        <img className="headLogo" src={ logo } alt="logo" />
+        <img className={ style.headLogo } src={ logo } alt="logo" />
       </div>
       <nav>
-        <ul>
+        <ul className={ style.aUl }>
           <li>
             <Link to="/">home</Link>
           </li>
@@ -25,6 +28,9 @@ export default function Header() {
             <Link to="/contact">contato</Link>
           </li>
         </ul>
+        <button className={ style.hamburger }>
+          <Hamburger toggled={menuOn} toggle={setMenu} />
+        </button>
       </nav>
     </header>
   )

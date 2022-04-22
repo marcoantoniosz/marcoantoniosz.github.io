@@ -1,14 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react';
+import MyContext from '../../context/MyContext';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
 import aboutMage from '../../images/SOBRE.png';
 import style from './style.module.css';
+import MenuMobile from '../../components/menu';
 
 export default function About() {
-  return (
-    <>
-      <Header />
-      <main className={ style.aboutMain }>
+  const { menuOn } = useContext(MyContext);
+  const mainPage = (
+    <main className={ style.aboutMain }>
         <section className={ style.aboutMe }>
           <h1>Sobre mim</h1>
           <br />
@@ -43,7 +44,12 @@ export default function About() {
           </ul>
         </section>
       </main>
-      <Footer />
+  );
+  return (
+    <>
+      <Header />
+      { menuOn ? <MenuMobile /> : mainPage }
+      { menuOn ? undefined : <Footer /> }
     </>
   )
 }

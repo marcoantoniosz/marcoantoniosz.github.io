@@ -1,13 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react';
+import MyContext from '../../context/MyContext';
+import MenuMobile from '../../components/menu';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
 import projectsMage from '../../images/PROJETOS.png';
 import style from './style.module.css';
 
 export default function Projects() {
-  return (
-    <>
-    <Header />
+  const { menuOn } = useContext(MyContext);
+  const mainPage = (
     <main className={ style.projectsMain }>
       <section className={ style.projectsContainer }>
         <h1>
@@ -28,7 +29,12 @@ export default function Projects() {
       </section>
       <img className={ style.projectsLogo } src={ projectsMage } alt="projects-mage" />
     </main>
-    <Footer />
+  );
+  return (
+    <>
+    <Header />
+    { menuOn ? <MenuMobile /> : mainPage }
+    { menuOn ? undefined : <Footer /> }
   </>
   )
 }

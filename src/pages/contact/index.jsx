@@ -1,4 +1,6 @@
-import React, { useRef } from 'react'
+import React, { useRef, useContext } from 'react';
+import MyContext from '../../context/MyContext';
+import MenuMobile from '../../components/menu';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
 import contactMage from '../../images/CONTATO.png';
@@ -6,8 +8,8 @@ import style from './style.module.css';
 import emailjs from 'emailjs-com';
 
 export default function Contact() {
+  const { menuOn } = useContext(MyContext);
   const form = useRef();
-
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm('service_23aq96b', 'template_hlct6xp', form.current, 'zisHxAL3L-d8HRlge')
@@ -18,9 +20,7 @@ export default function Contact() {
       });
       e.target.reset();
   };
-  return (
-    <>
-    <Header />
+  const mainPage = (
     <main className={ style.contactMain }>
       <img className={ style.contactMage } src={ contactMage } alt="contact-mage" />
       <form onSubmit={ sendEmail } ref={ form } className={ style.contactForm }>
@@ -38,7 +38,12 @@ export default function Contact() {
         <button value="Send" type="submit">Enviar</button>
       </form>
     </main>
-    <Footer />
+  );
+  return (
+    <>
+    <Header />
+    { menuOn ? <MenuMobile /> : mainPage }
+    { menuOn ? undefined : <Footer /> }
   </>
   )
 }
