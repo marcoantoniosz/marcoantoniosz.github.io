@@ -7,11 +7,6 @@
     align-items: center !important;
     justify-content: space-around !important;
   }
-
-  .homeMage {
-    height: 50vh !important;
-  }
-
   .texts {
     height: 25vh !important;
     width: 80vw !important;
@@ -50,10 +45,11 @@
   box-shadow: 22px 22px #4836C9;
   z-index: -2;
   }
-}
 
-.homeMage {
-  height: 50vh;
+  .homeMage {
+    height: 50vh !important;
+  }
+
 }
 
 .texts {
@@ -99,6 +95,10 @@
   100% {
     transform: translatey(0px);
   }
+}
+
+.homeMage {
+  height: 500px;
 }
 
 @keyframes float2 {
