@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import style from './style.module.css';
 import logo from '../../images/LOGO.png';
-import { Twirl as Hamburger } from 'hamburger-react';
+import { Squash as Hamburger } from 'hamburger-react';
 import MyContext from '../../context/MyContext';
 
 
@@ -30,9 +30,9 @@ export default function Header() {
             <Link to="/contact">contato</Link>
           </li>
         </ul>
-        <button className={ style.hamburger }>
-          <Hamburger toggled={menuOn} toggle={setMenu} />
-        </button>
+        <div className={ style.hamburguer }>
+          <Hamburger easing="ease-in" size={ 29 } toggled={menuOn} toggle={setMenu} />
+        </div>
       </nav>
     </header>
   )

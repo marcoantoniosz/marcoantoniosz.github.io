@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Breath Fire';
+  src: url('./fonts/breath-fire.ttf') format('truetype');
+}
+
 
 * {
   box-sizing: border-box;
@@ -7,23 +12,4 @@
 
 body {
   background: linear-gradient(180deg, rgba(118,169,245,1) 0%, rgba(131,175,242,1) 18%, rgba(141,180,239,1) 51%, rgba(204,210,224,1) 88%);
-}
-
-header {
-  height: 10vh;
-  width: 100vw;
-}
-
-main {
-  height: 82vh;
-  width: 100vw;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-footer {
-  height: 7vh;
-  margin-bottom: 1vh;
-  width: 100vw;
 }

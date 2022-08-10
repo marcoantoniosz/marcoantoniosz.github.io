@@ -1,17 +1,22 @@
 .navMobile {
   display: flex;
   justify-content: center;
-  width: 100vw;
-  height: 90vh;
+  width: 100%;
+  height: 91vh;
   list-style: none;
   font-size: 25px;
-  background: rgba(225,126,24,1);
+  background: linear-gradient(90deg, rgba(222,220,0,1) 10%, rgba(223,162,19,1) 30%, rgba(225,126,24,1) 50%, rgba(230,51,42,1) 90%);
 }
 
 .navMobile a {
   text-decoration: none;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Breath Fire';
+  font-weight: bold;
   color: #280330;
+}
+
+.navMobile a:hover {
+  color: white;
 }
 
 .aUl {

@@ -1,59 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@font-face {
+  font-family: 'Breath Fire';
+  src: url('../../fonts/breath-fire.ttf') format('truetype');
+}
 
-@media screen and (max-width: 858px) {
-  .aUl {
-    width: 200px !important;
-    justify-content: center;
-    display: flex !important;
-    flex-wrap: wrap !important;
-    font-size: 2vh !important;
-  }
-  .headLogo {
-    height: 7vh !important;
-  }
-
-  .header button {
-    display: flex !important;
-    background-color: transparent !important;
-    border: transparent !important;
-  }
-
-  .aUl {
+@media screen and (min-width: 1024px) {
+  .hamburguer {
     display: none !important;
   }
-
+  .aUl {
+    display: flex !important;
+  }
 }
 
 .header {
+  height: 9vh;
+  min-width: 100%;
   align-items: center;
   display: flex;
   justify-content: space-around;
-  width: 100vw;
+  width: 100%;
   background: linear-gradient(90deg, rgba(222,220,0,1) 0%, rgba(223,162,19,1) 27%, rgba(225,126,24,1) 48%, rgba(230,51,42,1) 69%);
 }
 
 .aUl {
-  display: flex;
-  justify-content: space-between;
-  width: 50vw;
   list-style: none;
-  font-size: 20px;
+  display: none;
+  justify-content: space-around;
+  width: 700px;
 }
 
 .aUl a {
   text-decoration: none;
-  font-family: 'Anton', sans-serif;
-  color: #280330;
+  color: black;
+  font-size: 25px;
+  font-family: 'Breath Fire';
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.aUl a:hover {
+  color: #f2f2f2;
 }
 
 .headLogo {
-  height: 60px;
+  height: 50px;
 }
- .header button {
-   display: none;
-   background-color: transparent;
-   border: transparent;
- }
+
 
 
 
