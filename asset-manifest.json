@@ -1,20 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.8c0637d5.css",
-    "main.js": "/static/js/main.9c381f44.js",
+    "main.css": "/static/css/main.d8710fde.css",
+    "main.js": "/static/js/main.cac81c80.js",
     "static/media/CONTATO.png": "/static/media/CONTATO.96092a8268eede94f867.png",
     "static/media/HOME.png": "/static/media/HOME.e88b7a2dcf165b85f7ab.png",
+    "static/media/sigilian.ttf": "/static/media/sigilian.890eb57da603d3f500b9.ttf",
     "static/media/PROJETOS.png": "/static/media/PROJETOS.c4137a234f747501e6a8.png",
+    "static/media/pocket-caldron.png": "/static/media/pocket-caldron.5c72ec6b3ff034f050ce.png",
     "static/media/SOBRE.png": "/static/media/SOBRE.30dc572ea8a9898f69ad.png",
+    "static/media/itony.png": "/static/media/itony.4120b4996cbc82dc4eb1.png",
+    "static/media/breath-fire.ttf": "/static/media/breath-fire.e7a429ada843101f73b5.ttf",
     "static/media/LOGO.png": "/static/media/LOGO.e23238a8864a30ed8783.png",
+    "static/media/8bit.ttf": "/static/media/8bit.724743cc48ac2e9b0145.ttf",
+    "static/media/vehicles.png": "/static/media/vehicles.d33d6a1ad03dace7dfff.png",
+    "static/media/tryvia.png": "/static/media/tryvia.696ff6bc7ddba1689250.png",
     "static/media/github-brands.svg": "/static/media/github-brands.833b63e28cadf07403bc81451d30b858.svg",
     "static/media/linkedin-brands.svg": "/static/media/linkedin-brands.f2f7d420f8ec14109e65abad03b5f32c.svg",
     "index.html": "/index.html",
-    "main.8c0637d5.css.map": "/static/css/main.8c0637d5.css.map",
-    "main.9c381f44.js.map": "/static/js/main.9c381f44.js.map"
+    "main.d8710fde.css.map": "/static/css/main.d8710fde.css.map",
+    "main.cac81c80.js.map": "/static/js/main.cac81c80.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c0637d5.css",
-    "static/js/main.9c381f44.js"
+    "static/css/main.d8710fde.css",
+    "static/js/main.cac81c80.js"
   ]
 }
