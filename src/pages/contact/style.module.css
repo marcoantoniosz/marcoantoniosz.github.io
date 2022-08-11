@@ -1,22 +1,35 @@
-@media screen and (max-width: 858px) {
+@media screen and (min-width: 1024px) {
   .contactMain {
-    display: flex;
-    flex-direction: column-reverse;
-    height: 120vh;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    flex-direction: row-reverse !important;
+    justify-content: space-evenly !important;
   }
-  .contactMage {
-    height: 50vh !important;
-  }
+}
 
+@media screen and (min-width: 768px) {
+  .contactMage {
+    width: 500px !important;
+  }
 }
 
 .contactMage {
-  height: 80vh;
+  width: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .line {
   width: 200px;
   border: 1px solid #000;
+}
+
+.contactMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
 }
 
 .contactForm {
@@ -29,28 +42,41 @@
   justify-content: space-around;
   align-items: center;
   border: 1px solid black;
-  font-family: 'Baloo 2', cursive;
+  font-family: '8 bit';
+}
+
+.contactForm h1 {
+  font-size: 20px;
 }
 
 .contactForm input {
   height: 30px;
   width: 250px;
-  font-family: 'Baloo 2', cursive;
-  font-size: 18px;
+  font-family: '8 bit';
+  font-size: 12px;
+  border-radius: 20px;
+  padding-left: 5px;
 }
 
 .contactForm textarea {
   resize: none;
   width: 250px;
   height: 100px;
-  font-family: 'Baloo 2', cursive;
-  font-size: 18px;
+  font-family: '8 bit';
+  font-size: 12px;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 .contactForm button {
   width: 250px;
   height: 30px;
   background-color: rgba(222,220,0,1);
+  border: none;
+  border-radius: 20px;
+  font-size: 12px;
+  font-family: '8 bit';
 }
 
 .contactForm {

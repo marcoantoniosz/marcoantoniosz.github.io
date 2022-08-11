@@ -1,16 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 
-@media screen and (max-width: 858px) {
-  .aboutMage {
-    height: 50vh !important;
-  }
+
+@media screen and (min-width: 1024px) {
   .aboutMain {
-    display: flex !important;
-    flex-direction: column;
-    height: 200vh;
+    margin-top: 5px !important;
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+  }
+  .aboutMage {
+    width: 500px !important;
   }
 }
 
+@media screen and (min-width: 768px) {
+  .aboutMage {
+    width: 400px !important;
+  }
+}
+
+
+.aboutMain {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 .line {
   width: 200px;
@@ -18,24 +33,30 @@
 }
 
 .aboutMage {
-  height: 80vh;
+  width: 300px;
 }
 
 .aboutMe {
+  margin-top: 30px;
+  margin-bottom: 20px;
   width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: '8 bit';
+  font-size: 15px;
   text-align: center;
-  font-family: 'Baloo 2', cursive;
 }
 
 .skillsContainer {
+  margin-bottom: 30px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: '8 bit';
+  font-size: 15px;
   width: 300px;
-  font-family: 'Baloo 2', cursive;
 }

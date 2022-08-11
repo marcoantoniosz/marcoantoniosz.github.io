@@ -1,35 +1,84 @@
-@import url('https://fonts.googleapis.com/css?family=Baloo+2:400,800&display=swap" rel="stylesheet');
-
-@media screen and (max-width: 858px) {
-  .homeContainer {
-    display: flex !important;
-    flex-direction: column-reverse !important;
-    align-items: center !important;
-    justify-content: space-around !important;
+@media screen and (min-width: 768px) {
+  .homeMage {
+    width: 400px !important;
   }
   .texts {
-    height: 25vh !important;
-    width: 80vw !important;
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: space-evenly !important;
-    align-items: center !important;
-    margin-right: 15% !important;
+    width: 500px !important;
+    height: 300px !important;
   }
   .texts h1 {
-    font-size: 3vh !important;
+    font-size: 55px !important;
   }
+  
   .texts p {
-    font-size: 2vh !important;
+    font-size: 35px !important;
   }
-  .texts:after {
+}
+
+@media screen and (min-width: 1024px) {
+  .homeMage {
+    width: 500px !important;
+  }
+  .texts {
+    width: 500px !important;
+  }
+  .texts h1 {
+    font-size: 60px !important;
+  }
+  
+  .texts p {
+    font-size: 35px !important;
+  }
+}
+
+.homeContainer {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeMage {
+  width: 300px;
+  margin-bottom: 25px;
+}
+
+.texts {
+  font-family: 'Sigilian';
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 290px;
+  height: 200px;
+  transform: translatey(0px);
+  animation: float 5s ease-in-out infinite;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  background-color: white;
+  border-radius: 11px;
+  box-shadow: 5px 5px 2px 2px #4836C9;
+}
+
+.texts h1 {
+  color: rgba(230,51,42,1);
+  font-size: 40px;
+}
+
+.texts p {
+  font-size: 25px;
+}
+
+.texts:after {
   transform: translatey(0px);
   animation: float2 5s ease-in-out infinite;
   content: ".";
   font-weight: bold;
   -webkit-text-stroke: 0.5px;
-  -webkit-text-fill-color: #dadada;
-  border: 1px solid;
+  -webkit-text-fill-color: white;
+  border: 1px solid #4836C9;
   text-shadow: 22px 22px #4836C9;
   text-align: left;
   font-size: 55px;
@@ -37,7 +86,7 @@
   height: 11px;
   line-height: 30px;
   border-radius: 11px;
-  background-color: #DADADA;
+  background-color: white;
   position: absolute;
   display: block;
   bottom: -30px;
@@ -45,45 +94,6 @@
   box-shadow: 22px 22px #4836C9;
   z-index: -2;
   }
-
-  .homeMage {
-    height: 50vh !important;
-  }
-
-}
-
-.texts {
-  margin-top: 40px;
-  margin-left: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 50vw;
-  height: 45vh;
-}
-
-.texts {
-  transform: translatey(0px);
-  animation: float 5s ease-in-out infinite;
-  mix-blend-mode: multiply;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 3px;
-  font-size: 20px;
-  background-color: #DADADA;
-  padding: 50px;
-  border-radius: 11px;
-  position: relative;
-  box-shadow: 5px 5px 2px 2px #4836C9;
-  font-family: "Baloo 2", cursive;
-}
-
-.homeInfo {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-}
 
 @keyframes float {
   0% {
@@ -95,10 +105,6 @@
   100% {
     transform: translatey(0px);
   }
-}
-
-.homeMage {
-  height: 80vh;
 }
 
 @keyframes float2 {

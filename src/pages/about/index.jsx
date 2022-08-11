@@ -16,7 +16,7 @@ export default function About() {
           <div className={ style.line } />
           <br />
           <p>
-            Me chamo Marco, tenho 22 anos, atualmente resido nas sempre ensolaradas terras do norte de Minas Gerais e nutro uma paixão desenfreada por tecnologia e tudo que possa me conectar a processos criativos em geral.
+            Me chamo Marco, tenho 22 anos, atualmente resido nas sempre ensolaradas terras do norte de Minas Gerais e nutro uma paixão desenfreada por tecnologias e tudo que possa me conectar a processos criativos e desafios lógicos em geral.
           </p>
           <br />
           <p>
@@ -41,6 +41,10 @@ export default function About() {
             <li>React Hooks</li>
             <li>Bootstrap</li>
             <li>MySQL</li>
+            <li>NodeJS</li>
+            <li>Express</li>
+            <li>Sequelize</li>
+            <li>TypeScript</li>
           </ul>
         </section>
       </main>

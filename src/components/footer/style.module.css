@@ -1,22 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@media screen and (min-width: 768px) {
+  .iconsContainer {
+    width: 700px !important;
+    font-size: 25px !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .iconsContainer {
+    width: 1000px !important;
+    font-size: 25px !important;
+  }
+}
 
 footer {
   display: flex;
   justify-content: center;
+  margin-bottom: 9px;
 }
 
 .iconsContainer {
-  width: 90vw;
+  width: 290px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   border-radius: 20px;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Breath Fire';
+  font-size: 20px;
+  font-weight: bold;
   background-color: rgba(118,169,245,1);
   box-shadow: rgb(66, 140, 252) 2px 2px 2px 2px;
 }
 
 .footerIcon {
-  height: 40px;
+  margin-top: 5px;
+  height: 30px;
 }
 

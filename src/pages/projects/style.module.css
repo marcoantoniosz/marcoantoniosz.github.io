@@ -1,83 +1,51 @@
-@media screen and (max-width: 858px) {
-
+@media screen and (min-width: 768px) {
+  .projects {
+    flex-direction: row !important;
+  }
   .projectsLogo {
-    height: 50vh !important;
+    width: 400px !important;
   }
+  .title {
+    font-size: 30px !important;
+  }
+}
 
-  .projectsMain {
-    display: flex !important;
-    flex-direction: column-reverse !important;
-    justify-content: space-around;
-    height: 120vh;
+@media screen and (min-width: 1024px) {
+  .projectsLogo {
+    width: 500px !important;
   }
-  .projectsContainer {
-    width: 80vw !important;
-    height: 50vh !important;
-    margin-bottom: 15% !important;
-  }
-  .line {
-    width: 150px !important;
-  }
-  .projectsContainer li {
-    width: 300px !important;
-  }
+}
+  
+
+.projectsMain {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .projectsLogo {
-  height: 80vh;
+  width: 300px;
 }
 
 .line {
-  width: 400px;
+  width: 200px;
   border: 1px solid #000;
 }
 
-.projectsContainer {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-direction: column;
-}
-
-.projectsContainer {
-  margin-top: 10px;
-  height: 450px;
-  width: 600px;
-  border: 1px solid black;
-  font-family: 'Baloo 2', cursive;
-  background: rgba( 255, 255, 255, 0.35 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 13.5px );
-  -webkit-backdrop-filter: blur( 13.5px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-}
-
-.projectsContainer a {
-  text-decoration: none;
-}
-
-.projectsContainer li {
-  list-style: none;
-  font-family: 'Baloo 2', cursive;
+.title {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-family: '8 Bit';
   font-size: 20px;
-  color: currentColor;
-  width: 400px;
-  text-align: center;
 }
 
-.projectsContainer li:hover{
-  background-color: rgba(118,169,245,1);
-  box-shadow: rgb(66, 140, 252) 2px 2px 2px 2px;
-  border-radius: 10px;
-  color: rgba(230,51,42,1);
-}
-
-.projectsContainer ul {
+.projects {
+  margin-bottom: 58px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  height: 200px;
-  width: 400px;
+  flex-wrap: wrap;
 }

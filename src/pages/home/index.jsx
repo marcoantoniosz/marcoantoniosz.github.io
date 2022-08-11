@@ -13,14 +13,14 @@ export default function Home() {
   const mainPage = 
   ( 
     <main className={ style.homeContainer }>
-        <img className={ style.homeMage } id={ style.homeMage } src={ homeMage } alt="home-mage" />
-        <div className={ style.homeInfo }>
-          <section className={ style.texts }>
-            <h1>Olá, mundo!</h1>
-            <p>Me chamo Marco Souza.</p>
-            <p>Sou estudante de Desenvolvimento Web Full Stack. </p>
-          </section>
-        </div>
+      <div className={ style.homeInfo }>
+        <section className={ style.texts }>
+          <h1>Olá, mundo!</h1>
+          <p>Me chamo Marco Souza.</p>
+          <p>Sou estudante de Desenvolvimento Web Full Stack. </p>
+        </section>
+      </div>
+      <img className={ style.homeMage } id={ style.homeMage } src={ homeMage } alt="home-mage" />
     </main> 
   );
   

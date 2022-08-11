@@ -6,7 +6,8 @@ export default function NotFound() {
   return (
     <>
     <Header />
-    <main></main>
+    <main>
+    </main>
     <Footer />
   </>
   )

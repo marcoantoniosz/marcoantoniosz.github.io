@@ -22,7 +22,6 @@ export default function Contact() {
   };
   const mainPage = (
     <main className={ style.contactMain }>
-      <img className={ style.contactMage } src={ contactMage } alt="contact-mage" />
       <form onSubmit={ sendEmail } ref={ form } className={ style.contactForm }>
         <h1>Me envie uma mensagem</h1>
         <div className={ style.line } />
@@ -37,6 +36,7 @@ export default function Contact() {
           </label>
         <button value="Send" type="submit">Enviar</button>
       </form>
+      <img className={ style.contactMage } src={ contactMage } alt="contact-mage" />
     </main>
   );
   return (

@@ -3,6 +3,15 @@
   src: url('./fonts/breath-fire.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Sigilian';
+  src: url('./fonts/sigilian.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: '8 Bit';
+  src: url('./fonts/8bit.ttf');
+}
 
 * {
   box-sizing: border-box;
@@ -12,4 +21,8 @@
 
 body {
   background: linear-gradient(180deg, rgba(118,169,245,1) 0%, rgba(131,175,242,1) 18%, rgba(141,180,239,1) 51%, rgba(204,210,224,1) 88%);
+}
+
+main {
+  min-height: 91vh;
 }
