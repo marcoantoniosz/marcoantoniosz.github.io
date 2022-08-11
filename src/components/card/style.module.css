@@ -1,9 +1,8 @@
 @media screen and (min-width: 768px) {
   .card {
-    margin-right: 30px !important;
+    max-width: 550px !important;
   }
 }
-  
 
 .card {
   cursor: pointer;
