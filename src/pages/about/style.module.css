@@ -60,3 +60,20 @@
   font-size: 15px;
   width: 300px;
 }
+
+.curriculum {
+  margin-top: 30px;
+  display: flex;
+  background-color: rgba(230,51,42,1);
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.curriculum a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgba(222,220,0,1);
+}

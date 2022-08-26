@@ -5,6 +5,7 @@ import Footer from '../../components/footer';
 import aboutMage from '../../images/SOBRE.png';
 import style from './style.module.css';
 import MenuMobile from '../../components/menu';
+import CV from '../../files/CV.pdf';
 
 export default function About() {
   const { menuOn } = useContext(MyContext);
@@ -46,6 +47,9 @@ export default function About() {
             <li>Sequelize</li>
             <li>TypeScript</li>
           </ul>
+          <div className={ style.curriculum }>
+            <a href={ CV } target="_blank" rel="noreferrer" >Curriculum</a>
+          </div>
         </section>
       </main>
   );
