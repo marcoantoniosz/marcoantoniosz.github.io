@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.4cff23da.css",
-    "main.js": "/static/js/main.7175b1e9.js",
+    "main.js": "/static/js/main.93d8fa98.js",
     "static/media/CONTATO.png": "/static/media/CONTATO.96092a8268eede94f867.png",
-    "static/media/CV.pdf": "/static/media/CV.50d4cb75a41f3c51e48e.pdf",
+    "static/media/CV.pdf": "/static/media/CV.4af37c75178c45b6e260.pdf",
     "static/media/HOME.png": "/static/media/HOME.e88b7a2dcf165b85f7ab.png",
     "static/media/sigilian.ttf": "/static/media/sigilian.890eb57da603d3f500b9.ttf",
     "static/media/PROJETOS.png": "/static/media/PROJETOS.c4137a234f747501e6a8.png",
@@ -19,10 +19,10 @@
     "static/media/linkedin-brands.svg": "/static/media/linkedin-brands.f2f7d420f8ec14109e65abad03b5f32c.svg",
     "index.html": "/index.html",
     "main.4cff23da.css.map": "/static/css/main.4cff23da.css.map",
-    "main.7175b1e9.js.map": "/static/js/main.7175b1e9.js.map"
+    "main.93d8fa98.js.map": "/static/js/main.93d8fa98.js.map"
   },
   "entrypoints": [
     "static/css/main.4cff23da.css",
-    "static/js/main.7175b1e9.js"
+    "static/js/main.93d8fa98.js"
   ]
 }
