@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.3f8b9fdb.css",
-    "main.js": "/static/js/main.8c030e16.js",
-    "static/media/CV.pdf": "/static/media/CV.320b01de904e0d319c77.pdf",
+    "main.css": "/static/css/main.2e8f24ac.css",
+    "main.js": "/static/js/main.fcedd30b.js",
     "static/media/CONTATO.png": "/static/media/CONTATO.96092a8268eede94f867.png",
     "static/media/HOME.png": "/static/media/HOME.e88b7a2dcf165b85f7ab.png",
     "static/media/sigilian.ttf": "/static/media/sigilian.890eb57da603d3f500b9.ttf",
+    "static/media/CV.pdf": "/static/media/CV.a99f61972ce7b665239d.pdf",
     "static/media/PROJETOS.png": "/static/media/PROJETOS.c4137a234f747501e6a8.png",
     "static/media/pocket-caldron.png": "/static/media/pocket-caldron.5c72ec6b3ff034f050ce.png",
     "static/media/SOBRE.png": "/static/media/SOBRE.30dc572ea8a9898f69ad.png",
@@ -18,11 +18,11 @@
     "static/media/github-brands.svg": "/static/media/github-brands.833b63e28cadf07403bc81451d30b858.svg",
     "static/media/linkedin-brands.svg": "/static/media/linkedin-brands.f2f7d420f8ec14109e65abad03b5f32c.svg",
     "index.html": "/index.html",
-    "main.3f8b9fdb.css.map": "/static/css/main.3f8b9fdb.css.map",
-    "main.8c030e16.js.map": "/static/js/main.8c030e16.js.map"
+    "main.2e8f24ac.css.map": "/static/css/main.2e8f24ac.css.map",
+    "main.fcedd30b.js.map": "/static/js/main.fcedd30b.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f8b9fdb.css",
-    "static/js/main.8c030e16.js"
+    "static/css/main.2e8f24ac.css",
+    "static/js/main.fcedd30b.js"
   ]
 }
