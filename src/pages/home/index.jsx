@@ -17,7 +17,7 @@ export default function Home() {
         <section className={ style.texts }>
           <h1>Olá, mundo!</h1>
           <p>Me chamo Marco Souza.</p>
-          <p>Sou estudante de Desenvolvimento Web Full Stack. </p>
+          <p>Sou Desenvolvedor Web Full Stack. </p>
         </section>
       </div>
       <img className={ style.homeMage } id={ style.homeMage } src={ homeMage } alt="home-mage" />
