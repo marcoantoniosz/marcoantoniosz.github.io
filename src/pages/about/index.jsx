@@ -46,6 +46,19 @@ export default function About() {
             <li>Express</li>
             <li>Sequelize</li>
             <li>TypeScript</li>
+            <li>Auto Lideranca</li>
+            <li>Criatividade</li>
+            <li>Trabalho em equipe</li>
+            <li>Comunicacao</li>
+            <li>Resiliencia</li>
+            <li>Adaptabilidade</li>
+            <li>Empatia</li>
+            <li>Organizacao</li>
+            <li>Proatividade</li>
+            <li>Responsabilidade</li>
+            <li>Comprometimento</li>
+            <li>Autodidatismo</li>
+            <li>Ingles Intermediario</li>
           </ul>
           <div className={ style.curriculum }>
             <a href={ CV } target="_blank" rel="noreferrer" >Curriculum</a>

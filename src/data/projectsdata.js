@@ -2,6 +2,8 @@ import tryvia from '../images/tryvia.png';
 import iTony from '../images/itony.png';
 import pocketCaldron from '../images/pocket-caldron.png';
 import vehicles from '../images/vehicles.png';
+import cr from '../images/CR.png';
+import oo from '../images/OO.png';
 
 const data = [
   {
@@ -35,6 +37,22 @@ const data = [
     techs: ['React', 'CSS', 'REDUX', 'OpenTDB API'],
     url: 'https://marcoantoniosz.github.io/tryvia/',
     image: tryvia
+  },
+  {
+    title: 'Página Pessoal - Pintor',
+    stack: 'Frontend',
+    description: 'Página pessoal de um pintor, com informações sobre o artista e galeria de obras.',
+    techs: ['React', 'CSS', 'React Router', 'React SlideShow Image', 'React Bootstrap', 'Floating WhatsApp'],
+    url: 'https://portfolio-arte.netlify.app/',
+    image: cr
+  },
+  {
+    title: 'Página Institucional - Advocacia',
+    stack: 'Frontend (desktop)',
+    description: 'Página institucional de um escritório de advocacia, com informações sobre a empresa e serviços prestados.',
+    techs: ['React', 'CSS', 'React Router', 'React Bootstrap', 'Floating WhatsApp', 'React SlideShow Image'],
+    url: 'https://portfolio-advocacia.netlify.app/',
+    image: oo
   }
 ];
 

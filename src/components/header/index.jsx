@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import style from './style.module.css';
 import logo from '../../images/LOGO.png';
@@ -7,6 +7,26 @@ import MyContext from '../../context/MyContext';
 
 
 export default function Header() {
+
+  const linkBackground = useCallback(() => {
+    const route = window.location.pathname;
+    const links = document.querySelectorAll('.headerlink');
+    links.forEach((link) => {
+      if (link.href.includes(route) || route === '/') {
+        link.classList.add(style.linkBackground);
+      } 
+      if (!link.href.includes(route)) {
+        link.classList.remove(style.linkBackground);
+      }
+    }
+    );
+  }, []);
+
+  useEffect(() => {
+    linkBackground();
+  }, [linkBackground]);
+
+
   const { menuOn, setMenu } = useContext(MyContext);
   return (
     <header className={style.header }>
@@ -18,16 +38,16 @@ export default function Header() {
       <nav>
         <ul className={ style.aUl }>
           <li>
-            <Link to="/">home</Link>
+            <Link className='headerlink' to="/">home</Link>
           </li>
           <li>
-            <Link to="/about">sobre</Link>
+            <Link className='headerlink' to="/about">sobre</Link>
           </li>
           <li>
-            <Link to="/projects">projetos</Link>
+            <Link className='headerlink' to="/projects">projetos</Link>
           </li>
           <li>
-            <Link to="/contact">contato</Link>
+            <Link className='headerlink' to="/contact">contato</Link>
           </li>
         </ul>
         <div className={ style.hamburguer }>
